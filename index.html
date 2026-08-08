@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akshra — AI/ML Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <canvas id="galaxy-canvas"></canvas>
+
+    <div id="scroll-progress"><div id="scroll-progress-fill"></div></div>
+
+    <nav id="site-nav">
+      <span class="nav-mark">A.</span>
+      <ul>
+        <li><a href="#origin">Origin</a></li>
+        <li><a href="#nebula">Nebula</a></li>
+        <li><a href="#cluster">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#signal">Signal</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="origin" class="panel hero">
+        <div class="panel-card">
+          <p class="eyebrow">AI / ML Engineer · Data Scientist</p>
+          <h1>Akshra<span class="dim">.</span></h1>
+          <p class="lede">
+            I build things at the edge of perception — deepfake detectors, agentic
+            systems, and models that hold up under scrutiny. This is the galaxy
+            they orbit.
+          </p>
+          <a class="scroll-cue" href="#nebula"><span></span>Scroll to enter the field</a>
+        </div>
+      </section>
+
+      <section id="nebula" class="panel about">
+        <div class="panel-card">
+          <h2>Where the work condenses</h2>
+          <p>
+            CS graduate from Bennett University (CGPA 7.97), with an IEEE
+            peer-reviewed publication on deepfake detection using a Swin
+            Transformer. I've worked across research and industry — as a
+            Research Associate at Bennett University, and through internships
+            at GeeksforGeeks and Celebal Technologies.
+          </p>
+          <p>
+            Most of what I ship runs on the same backbone: FastAPI, Docker, and
+            GitHub Actions for CI/CD — a consistent stack so the work is easy
+            to trust and easy to reproduce.
+          </p>
+        </div>
+      </section>
+
+      <section id="cluster" class="panel projects">
+        <h2>Projects</h2>
+        <div class="star-grid">
+          <article class="star-card" tabindex="0">
+            <div class="star-card-inner">
+              <div class="star-card-front">
+                <span class="star-index">α</span>
+                <h3>Deepfake Detection</h3>
+                <p class="tag">IEEE Published</p>
+                <p>Swin Transformer–based detection, peer-reviewed and published.</p>
+                <span class="flip-hint">↻ flip for details</span>
+              </div>
+              <div class="star-card-back">
+                <p>
+                  A Swin Transformer image classifier trained to catch facial
+                  manipulation artifacts invisible to the eye. The work was
+                  peer-reviewed and published in an IEEE venue, with the
+                  full methodology and evaluation written up formally.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="star-card" tabindex="0">
+            <div class="star-card-inner">
+              <div class="star-card-front">
+                <span class="star-index">β</span>
+                <h3>Credit Default Risk</h3>
+                <p class="tag">XGBoost · AUC 0.868</p>
+                <p>Gradient-boosted risk model with SHAP explainability built in.</p>
+                <span class="flip-hint">↻ flip for details</span>
+              </div>
+              <div class="star-card-back">
+                <p>
+                  An XGBoost classifier predicting loan default risk, reaching
+                  an AUC of 0.868. SHAP values are surfaced alongside every
+                  prediction so the "why" behind a score is never a black box.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="star-card" tabindex="0">
+            <div class="star-card-inner">
+              <div class="star-card-front">
+                <span class="star-index">γ</span>
+                <h3>Agentic RAG Chatbot</h3>
+                <p class="tag">LangGraph · LangChain · Groq</p>
+                <p>A retrieval-augmented agent graph for grounded, multi-step reasoning.</p>
+                <span class="flip-hint">↻ flip for details</span>
+              </div>
+              <div class="star-card-back">
+                <p>
+                  A multi-step agent built on LangGraph, with LangChain
+                  handling retrieval and Groq powering fast inference — designed
+                  to reason over documents instead of just pattern-matching them.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="star-card" tabindex="0">
+            <div class="star-card-inner">
+              <div class="star-card-front">
+                <span class="star-index">δ</span>
+                <h3>LoRA Fine-Tuning Studio</h3>
+                <p class="tag">Next.js · HuggingFace · TinyLlama</p>
+                <p>A studio interface for low-rank fine-tuning workflows end-to-end.</p>
+                <span class="flip-hint">↻ flip for details</span>
+              </div>
+              <div class="star-card-back">
+                <p>
+                  A Next.js front end wrapping HuggingFace's fine-tuning
+                  tooling, applied to TinyLlama — turning a normally
+                  script-driven LoRA workflow into a guided, visual one.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="star-card" tabindex="0">
+            <div class="star-card-inner">
+              <div class="star-card-front">
+                <span class="star-index">ε</span>
+                <h3>This Portfolio</h3>
+                <p class="tag">Three.js · Vite · WebGL</p>
+                <p>The galaxy you're standing in — a scroll-driven Three.js scene.</p>
+                <span class="flip-hint">↻ flip for details</span>
+              </div>
+              <div class="star-card-back">
+                <p>
+                  A hand-built particle galaxy (spiral arms, additive
+                  color gradients) with a scroll-linked camera path and
+                  floating wireframe ornaments — no template, no theme,
+                  built from a raw WebGL scene up.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+
+
+      <section id="skills" class="panel skills">
+        <div class="panel-card">
+          <h1>Tech Stack</h1>
+
+          <div class="skills-category">
+            <h3 class="skills-category-title">AI / Generative AI</h3>
+            <div class="skills-grid">
+              <span class="skill-pill">LangChain</span>
+              <span class="skill-pill">LangGraph</span>
+              <span class="skill-pill">LlamaIndex</span>
+              <span class="skill-pill">RAG Pipelines</span>
+              <span class="skill-pill">OpenAI API</span>
+              <span class="skill-pill">Gemini</span>
+              <span class="skill-pill">Groq</span>
+              <span class="skill-pill">FastAPI</span>
+              <span class="skill-pill">Multi-Agent Systems</span>
+              <span class="skill-pill">Prompt Engineering</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3 class="skills-category-title">ML / Deep Learning</h3>
+            <div class="skills-grid">
+              <span class="skill-pill">PyTorch</span>
+              <span class="skill-pill">TensorFlow</span>
+              <span class="skill-pill">Scikit-Learn</span>
+              <span class="skill-pill">Keras</span>
+              <span class="skill-pill">LightGBM</span>
+              <span class="skill-pill">XGBoost</span>
+              <span class="skill-pill">NLP</span>
+              <span class="skill-pill">Computer Vision</span>
+              <span class="skill-pill">Transformers</span>
+              <span class="skill-pill">LoRA / PEFT</span>
+              <span class="skill-pill">QLoRA</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3 class="skills-category-title">Full-Stack Development</h3>
+            <div class="skills-grid">
+              <span class="skill-pill">React.js</span>
+              <span class="skill-pill">Next.js</span>
+              <span class="skill-pill">REST APIs</span>
+              <span class="skill-pill">HTML/CSS</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3 class="skills-category-title">Languages</h3>
+            <div class="skills-grid">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">PySpark</span>
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">C/C++</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3 class="skills-category-title">Cloud &amp; Tools</h3>
+            <div class="skills-grid">
+              <span class="skill-pill">AWS</span>
+              <span class="skill-pill">GCP</span>
+              <span class="skill-pill">Vertex AI</span>
+              <span class="skill-pill">Hugging Face</span>
+              <span class="skill-pill">Vercel</span>
+              <span class="skill-pill">Docker</span>
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">GitHub Actions</span>
+              <span class="skill-pill">Power BI</span>
+              <span class="skill-pill">Tableau</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+      <section id="signal" class="panel contact">
+        <div class="panel-card">
+          <h2>Send a transmission</h2>
+          <p class="lede">
+            Open to conversations on ML engineering, research, and quantitative
+            roles.
+          </p>
+          <div class="signal-links">
+            <a
+              class="icon-link"
+              href="https://github.com/akshra09"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55
+                  0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68
+                  -1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96
+                  .1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1
+                  -.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.06 11.06 0 0 1 5.79 0c2.2-1.49
+                  3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69
+                  5.41-5.25 5.69.41.36.78 1.06.78 2.14 0 1.54-.01 2.79-.01 3.17 0 .3.2.66.79.55
+                  A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"
+                />
+              </svg>
+            </a>
+            <a
+              class="icon-link"
+              href="https://huggingface.co/akshra09"
+              target="_blank"
+              rel="noopener"
+              aria-label="HuggingFace"
+            >
+              <span class="icon-emoji" aria-hidden="true">🤗</span>
+            </a>
+            <a
+              class="icon-link"
+              href="https://www.linkedin.com/in/akshra-verma-b33969209/"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn — https://www.linkedin.com/in/akshra-verma-b33969209/"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9
+                  1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12
+                  20.45H3.56V9h3.56v11.45ZM22.22 0H1.78C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.78 24h20.44c.98 0 1.78-.78
+                  1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"
+                />
+              </svg>
+            </a>
+            <a class="icon-link" href="mailto:vermaakshra66@gmail.com" aria-label="Email — vermaakshra66@gmail.com">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <rect x="2.5" y="4.5" width="19" height="15" rx="2.5" />
+                <path d="m3 6 9 7 9-7" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+          <p class="contact-hint">Tap any icon to reach out — swap the placeholder URLs in the code with yours.</p>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
