@@ -115,7 +115,7 @@ main {
 }
 
 .panel + .panel {
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 
 /* Frosted scrim behind text so the galaxy never fights with legibility,
