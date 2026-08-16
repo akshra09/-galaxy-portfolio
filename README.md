@@ -3,7 +3,7 @@
 
 A 3D, galaxy-themed personal portfolio built with **Three.js** and **Vite** — a hand-built spiral particle galaxy sits behind your content as a scroll-driven scene, with the camera gliding between waypoints as you scroll through each section.
 
-**Live site:** _add your Vercel URL here_
+
 
 ---
 
